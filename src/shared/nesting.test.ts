@@ -15,12 +15,7 @@ function item(id: string, parent: string | null = null): RegistryItem {
   };
 }
 
-const registry = [
-  item("settings"),
-  item("tab-a", "settings"),
-  item("tab-b", "settings"),
-  item("other"),
-];
+const registry = [item("settings"), item("tab-a", "settings"), item("tab-b", "settings"), item("other")];
 
 describe("nestItems", () => {
   it("moves matching children below their matching parent in registry order", () => {

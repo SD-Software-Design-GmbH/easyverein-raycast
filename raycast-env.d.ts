@@ -8,7 +8,7 @@
 /* eslint-disable @typescript-eslint/ban-types */
 
 type ExtensionPreferences = {
-  /** API-Schlüssel - API-Schlüssel aus easyVerein (Einstellungen → API) */
+  /** API Key - Your easyVerein API key (Settings → easyVerein API). */
   "apiToken": string
 }
 

@@ -73,10 +73,7 @@ describe("filterItems", () => {
   const items = [{ label: "Alle Vereine" }, { label: "Vereinsübersicht" }, { label: "Rechnungen" }];
 
   it("keeps matches only, best first, up to the limit", () => {
-    expect(filterItems(items, "verein", 8).map((item) => item.label)).toEqual([
-      "Vereinsübersicht",
-      "Alle Vereine",
-    ]);
+    expect(filterItems(items, "verein", 8).map((item) => item.label)).toEqual(["Vereinsübersicht", "Alle Vereine"]);
     expect(filterItems(items, "verein", 1)).toHaveLength(1);
   });
 });
