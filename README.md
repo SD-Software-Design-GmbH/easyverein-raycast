@@ -1,7 +1,9 @@
 # easyVerein for Raycast
 
-Search easyVerein from Raycast: pages, settings and actions, plus members, addresses,
+Search [easyVerein](https://easyverein.com) from Raycast: pages, settings and actions, plus members, addresses,
 events, invoices and more. Results open in your browser.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## Setup
 
@@ -17,3 +19,7 @@ All pages are listed; easyVerein checks your permissions when you open one.
   search one type only. The dropdown next to the search bar does the same.
 - Enter opens the entry, Cmd+Enter opens the linked record, Cmd+Shift+C copies the link.
 - Recently opened entries show first. Ctrl+X removes one, Ctrl+Shift+X clears the list.
+
+---
+
+[easyVerein](https://easyverein.com) is a product of [SD Software-Design GmbH](https://software-design.de) · [MIT License](LICENSE)
